@@ -9,8 +9,10 @@ package info.androidhive.slidingmenu;
 
 public final class R {
     public static final class array {
-        public static final int nav_drawer_icons=0x7f040000;
-        public static final int nav_drawer_items=0x7f040001;
+        public static final int alumno_items=0x7f040000;
+        public static final int nav_drawer_icons=0x7f040001;
+        public static final int nav_drawer_icons_alumno=0x7f040002;
+        public static final int nav_drawer_items=0x7f040003;
     }
     public static final class attr {
     }
@@ -27,43 +29,41 @@ public final class R {
         public static final int activity_vertical_margin=0x7f060001;
     }
     public static final class drawable {
-        public static final int big59=0x7f020000;
-        public static final int bubble1=0x7f020001;
-        public static final int counter_bg=0x7f020002;
+        public static final int counter_bg=0x7f020000;
+        public static final int ic_action=0x7f020001;
+        public static final int ic_alertas=0x7f020002;
         public static final int ic_communities=0x7f020003;
-        public static final int ic_drawer=0x7f020004;
-        public static final int ic_home=0x7f020005;
-        public static final int ic_launcher=0x7f020006;
-        public static final int ic_pages=0x7f020007;
-        public static final int ic_people=0x7f020008;
-        public static final int ic_photos=0x7f020009;
-        public static final int ic_whats_hot=0x7f02000a;
-        public static final int list_item_bg_normal=0x7f02000b;
-        public static final int list_item_bg_pressed=0x7f02000c;
-        public static final int list_selector=0x7f02000d;
-        public static final int location4=0x7f02000e;
-        public static final int logo=0x7f02000f;
-        public static final int male_user=0x7f020010;
-        public static final int paperclip2=0x7f020011;
-        public static final int paperplane=0x7f020012;
-        public static final int settings3=0x7f020013;
-        public static final int tag6=0x7f020014;
-        public static final int user12=0x7f020015;
+        public static final int ic_config=0x7f020004;
+        public static final int ic_denuncia=0x7f020005;
+        public static final int ic_drawer=0x7f020006;
+        public static final int ic_foros=0x7f020007;
+        public static final int ic_home=0x7f020008;
+        public static final int ic_launcher=0x7f020009;
+        public static final int ic_map=0x7f02000a;
+        public static final int ic_pages=0x7f02000b;
+        public static final int ic_people=0x7f02000c;
+        public static final int ic_photos=0x7f02000d;
+        public static final int ic_tutoreados=0x7f02000e;
+        public static final int ic_whats_hot=0x7f02000f;
+        public static final int list_item_bg_normal=0x7f020010;
+        public static final int list_item_bg_pressed=0x7f020011;
+        public static final int list_selector=0x7f020012;
     }
     public static final class id {
-        public static final int action_settings=0x7f0a000c;
+        public static final int action_settings=0x7f0a000d;
         public static final int btn_login=0x7f0a0005;
         public static final int btn_p=0x7f0a0006;
-        public static final int btn_reset=0x7f0a000b;
-        public static final int counter=0x7f0a0009;
+        public static final int btn_reset=0x7f0a000c;
+        public static final int counter=0x7f0a000a;
         public static final int drawer_layout=0x7f0a0000;
         public static final int et_password=0x7f0a0004;
         public static final int et_user=0x7f0a0003;
         public static final int frame_container=0x7f0a0001;
-        public static final int icon=0x7f0a0007;
+        public static final int icon=0x7f0a0008;
         public static final int list_slidermenu=0x7f0a0002;
-        public static final int title=0x7f0a0008;
-        public static final int txtLabel=0x7f0a000a;
+        public static final int tb_ban=0x7f0a0007;
+        public static final int title=0x7f0a0009;
+        public static final int txtLabel=0x7f0a000b;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;

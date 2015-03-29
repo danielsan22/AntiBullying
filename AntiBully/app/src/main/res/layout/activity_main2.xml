@@ -37,6 +37,7 @@
             android:layout_height="200dp"
             android:layout_weight="1"
             />
+
         <Button
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
@@ -54,5 +55,15 @@
 
             />
 
-     </LinearLayout>
+        <ToggleButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New ToggleButton"
+            android:textOff="Alumno"
+            android:textOn="Tutor"
+            android:id="@+id/tb_ban"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="2" />
+
+    </LinearLayout>
 </RelativeLayout>

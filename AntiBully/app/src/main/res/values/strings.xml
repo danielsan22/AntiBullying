@@ -10,24 +10,39 @@
     <!-- Nav Drawer Menu Items -->
     <string-array name="nav_drawer_items">
         <item >Perfil</item>
-        <item >Find People</item>
-        <item >Photos</item>
-        <item >Communities</item>
-        <item >Pages</item>
+        <item >Mapa</item>
+        <item >Alertas</item>
+        <item >Tutoreados</item>
+        <item >Foros</item>
         <item >Configuración</item>
-        
+    </string-array>
+
+    <string-array name="alumno_items">
+        <item>Perfil</item>
+        <item>Alertas</item>
+        <item>Denuncias</item>
+        <item>Foros</item>
+        <item>Configuración</item>
     </string-array>
     
     <!-- Nav Drawer List Item Icons -->
     <!-- Keep them in order as the titles are in -->
     <array name="nav_drawer_icons">
-        <item>@drawable/male_user</item>
-        <item>@drawable/ic_people</item>
-        <item>@drawable/ic_photos</item>
-        <item>@drawable/ic_communities</item>
-        <item>@drawable/ic_pages</item>
-        <item>@drawable/logo</item>
+        <item>@drawable/ic_action</item>
+        <item>@drawable/ic_map</item>
+        <item>@drawable/ic_alertas</item>
+        <item>@drawable/ic_tutoreados</item>
+        <item>@drawable/ic_foros</item>
+        <item>@drawable/ic_config</item>
         
+    </array>
+    <array name="nav_drawer_icons_alumno">
+        <item>@drawable/ic_action</item>
+        <item>@drawable/ic_alertas</item>
+        <item>@drawable/ic_denuncia</item>
+        <item>@drawable/ic_foros</item>
+        <item>@drawable/ic_config</item>
+
     </array>
     
     <!-- Content Description -->

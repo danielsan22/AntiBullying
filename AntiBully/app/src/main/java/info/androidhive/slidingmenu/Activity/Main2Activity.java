@@ -10,6 +10,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
+import android.widget.ToggleButton;
 
 import info.androidhive.slidingmenu.MainActivity;
 import info.androidhive.slidingmenu.R;
@@ -17,6 +18,7 @@ import info.androidhive.slidingmenu.R;
 public class Main2Activity extends Activity implements View.OnClickListener{
 
     private Button btn_login, btn_p;
+    private ToggleButton tb_ban;
     private EditText et_user, et_password;
     private SharedPreferences pref;
     public static final String PREFS_NAME = "MyPreferencesFile";
@@ -31,6 +33,7 @@ public class Main2Activity extends Activity implements View.OnClickListener{
         btn_p.setOnClickListener(this);
         et_user     = (EditText)findViewById(R.id.et_user);
         et_password = (EditText)findViewById(R.id.et_password);
+        tb_ban = (ToggleButton)findViewById(R.id.tb_ban);
 
 
         pref = getSharedPreferences(PREFS_NAME, 0);
@@ -63,7 +66,6 @@ public class Main2Activity extends Activity implements View.OnClickListener{
         if (id == R.id.action_settings) {
             return true;
         }
-
         return super.onOptionsItemSelected(item);
     }
 
@@ -75,9 +77,18 @@ public class Main2Activity extends Activity implements View.OnClickListener{
                 SharedPreferences.Editor editor = settings.edit();
                 editor.putString("User", et_user.getText().toString());
                 editor.putString("Password", et_password.getText().toString());
+
+                boolean on = ((ToggleButton)tb_ban).isChecked();
+
+                if(on){
+                    editor.putInt("Tutor", 1);
+                }else
+                    editor.putInt("Alumno", 0);
+
                 editor.commit();
                 Intent i = new Intent(Main2Activity.this, MainActivity.class);
                 startActivity(i);
+                finish();
                 break;
             case R.id.btn_p:
                 Toast toast = Toast.makeText(getApplicationContext(),pref.getString("User", "Potato") ,Toast.LENGTH_SHORT);
