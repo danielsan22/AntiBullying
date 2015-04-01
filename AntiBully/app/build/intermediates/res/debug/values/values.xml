@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/Users/Daniel/Dropbox/Uni/Android/AntiBully/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/Users/Daniel/Downloads/AntiBullying-master/AntiBully/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string-array name="alumno_items">
         <item>Perfil</item>
@@ -34,7 +34,7 @@
         <item>Foros</item>
         <item>Configuración</item>
     </string-array>
-    <!-- From: file:/Users/Daniel/Dropbox/Uni/Android/AntiBully/app/src/main/res/values/color.xml -->
+    <!-- From: file:/Users/Daniel/Downloads/AntiBullying-master/AntiBully/app/src/main/res/values/color.xml -->
     <eat-comment/>
     <color name="counter_text_bg">#626262</color>
     <color name="counter_text_color">#c5c4c4</color>
@@ -42,20 +42,35 @@
     <color name="list_background_pressed">#799EFA</color>
     <color name="list_divider">#272727</color>
     <color name="list_item_title">#5E5F60</color>
-    <!-- From: file:/Users/Daniel/Dropbox/Uni/Android/AntiBully/app/src/main/res/values/dimens.xml -->
+    <!-- From: file:/Users/Daniel/Downloads/AntiBullying-master/AntiBully/app/src/main/res/values/dimens.xml -->
     <eat-comment/>
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
-    <!-- From: file:/Users/Daniel/Dropbox/Uni/Android/AntiBully/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/Users/Daniel/Downloads/AntiBullying-master/AntiBully/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="action_settings">Settings</string>
+    <string name="apellido_materno">Apellido Materno</string>
+    <string name="apellido_paterno">Apellido Paterno</string>
     <string name="app_name">Anti Bullying</string>
+    <string name="calle">Calle</string>
+    <string name="colonia">Colonia</string>
+    <string name="contrasena">Contraseña</string>
+    <string name="correo">Correo Electrónico</string>
     <string name="desc_list_item_icon">Item Icon</string>
     <string name="drawer_close">Slider Menu Closed</string>
     <string name="drawer_open">Slider Menu Opened</string>
+    <string name="edad">Edad</string>
+    <string name="genero">Género</string>
+    <string name="grado">Grado</string>
+    <string name="grupo">Grupo</string>
     <string name="hello_world">Hello world!</string>
+    <string name="nombre">Nombre</string>
+    <string name="numero">Numero</string>
+    <string name="register">¿Eres nuevo? Registrate</string>
+    <string name="telefono">Telefono</string>
     <string name="title_activity_main2">Bienvenido</string>
-    <!-- From: file:/Users/Daniel/Dropbox/Uni/Android/AntiBully/app/src/main/res/values/styles.xml -->
+    <string name="usuario">Usuario</string>
+    <!-- From: file:/Users/Daniel/Downloads/AntiBullying-master/AntiBully/app/src/main/res/values/styles.xml -->
     <eat-comment/>
     <style name="AppBaseTheme" parent="android:Theme.Light">
         <!--

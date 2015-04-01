@@ -50,31 +50,47 @@ public final class R {
         public static final int list_selector=0x7f020012;
     }
     public static final class id {
-        public static final int action_settings=0x7f0a000d;
+        public static final int action_settings=0x7f0a001c;
         public static final int btn_login=0x7f0a0005;
-        public static final int btn_p=0x7f0a0006;
-        public static final int btn_reset=0x7f0a000c;
-        public static final int counter=0x7f0a000a;
+        public static final int btn_register=0x7f0a0016;
+        public static final int btn_registro=0x7f0a0006;
+        public static final int btn_reset=0x7f0a001b;
+        public static final int counter=0x7f0a0019;
         public static final int drawer_layout=0x7f0a0000;
+        public static final int et_apellido_materno=0x7f0a000a;
+        public static final int et_apellido_paterno=0x7f0a0009;
+        public static final int et_calle=0x7f0a0014;
+        public static final int et_colonia=0x7f0a0013;
+        public static final int et_correo=0x7f0a000b;
+        public static final int et_edad=0x7f0a000c;
+        public static final int et_grado=0x7f0a000d;
+        public static final int et_grupo=0x7f0a000e;
+        public static final int et_noCasa=0x7f0a0015;
+        public static final int et_nombre=0x7f0a0008;
         public static final int et_password=0x7f0a0004;
+        public static final int et_passwordR=0x7f0a0012;
         public static final int et_user=0x7f0a0003;
+        public static final int et_userR=0x7f0a0011;
         public static final int frame_container=0x7f0a0001;
-        public static final int icon=0x7f0a0008;
+        public static final int icon=0x7f0a0017;
         public static final int list_slidermenu=0x7f0a0002;
+        public static final int rb_h=0x7f0a000f;
+        public static final int rb_m=0x7f0a0010;
         public static final int tb_ban=0x7f0a0007;
-        public static final int title=0x7f0a0009;
-        public static final int txtLabel=0x7f0a000b;
+        public static final int title=0x7f0a0018;
+        public static final int txtLabel=0x7f0a001a;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
         public static final int activity_main2=0x7f030001;
-        public static final int drawer_list_item=0x7f030002;
-        public static final int fragment_community=0x7f030003;
-        public static final int fragment_find_people=0x7f030004;
-        public static final int fragment_home=0x7f030005;
-        public static final int fragment_pages=0x7f030006;
-        public static final int fragment_photos=0x7f030007;
-        public static final int fragment_whats_hot=0x7f030008;
+        public static final int activity_registro=0x7f030002;
+        public static final int drawer_list_item=0x7f030003;
+        public static final int fragment_community=0x7f030004;
+        public static final int fragment_find_people=0x7f030005;
+        public static final int fragment_home=0x7f030006;
+        public static final int fragment_pages=0x7f030007;
+        public static final int fragment_photos=0x7f030008;
+        public static final int fragment_whats_hot=0x7f030009;
     }
     public static final class menu {
         public static final int main=0x7f090000;
@@ -82,12 +98,27 @@ public final class R {
     }
     public static final class string {
         public static final int action_settings=0x7f070000;
-        public static final int app_name=0x7f070001;
-        public static final int desc_list_item_icon=0x7f070002;
-        public static final int drawer_close=0x7f070003;
-        public static final int drawer_open=0x7f070004;
-        public static final int hello_world=0x7f070005;
-        public static final int title_activity_main2=0x7f070006;
+        public static final int apellido_materno=0x7f070001;
+        public static final int apellido_paterno=0x7f070002;
+        public static final int app_name=0x7f070003;
+        public static final int calle=0x7f070004;
+        public static final int colonia=0x7f070005;
+        public static final int contrasena=0x7f070006;
+        public static final int correo=0x7f070007;
+        public static final int desc_list_item_icon=0x7f070008;
+        public static final int drawer_close=0x7f070009;
+        public static final int drawer_open=0x7f07000a;
+        public static final int edad=0x7f07000b;
+        public static final int genero=0x7f07000c;
+        public static final int grado=0x7f07000d;
+        public static final int grupo=0x7f07000e;
+        public static final int hello_world=0x7f07000f;
+        public static final int nombre=0x7f070010;
+        public static final int numero=0x7f070011;
+        public static final int register=0x7f070012;
+        public static final int telefono=0x7f070013;
+        public static final int title_activity_main2=0x7f070014;
+        public static final int usuario=0x7f070015;
     }
     public static final class style {
         /** 

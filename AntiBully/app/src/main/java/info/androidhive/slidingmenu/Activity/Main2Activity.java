@@ -9,6 +9,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 import android.widget.ToggleButton;
 
@@ -17,9 +18,10 @@ import info.androidhive.slidingmenu.R;
 
 public class Main2Activity extends Activity implements View.OnClickListener{
 
-    private Button btn_login, btn_p;
+    private Button btn_login, btn_registro;;
     private ToggleButton tb_ban;
     private EditText et_user, et_password;
+
     private SharedPreferences pref;
     public static final String PREFS_NAME = "MyPreferencesFile";
     @Override
@@ -29,13 +31,11 @@ public class Main2Activity extends Activity implements View.OnClickListener{
 
         btn_login = (Button)findViewById(R.id.btn_login);
         btn_login.setOnClickListener(this);
-        btn_p = (Button)findViewById(R.id.btn_p);
-        btn_p.setOnClickListener(this);
         et_user     = (EditText)findViewById(R.id.et_user);
         et_password = (EditText)findViewById(R.id.et_password);
         tb_ban = (ToggleButton)findViewById(R.id.tb_ban);
-
-
+        btn_registro = (Button)findViewById(R.id.btn_registro);
+        btn_registro.setOnClickListener(this);
         pref = getSharedPreferences(PREFS_NAME, 0);
 
         if(pref.getString("User", "admin").equals("admin")){
@@ -90,11 +90,12 @@ public class Main2Activity extends Activity implements View.OnClickListener{
                 startActivity(i);
                 finish();
                 break;
-            case R.id.btn_p:
-                Toast toast = Toast.makeText(getApplicationContext(),pref.getString("User", "Potato") ,Toast.LENGTH_SHORT);
-                toast.show();
+            case R.id.btn_registro:
+                Intent d = new Intent(Main2Activity.this, RegistroActivity.class);
+                startActivity(d);
 
                 break;
+
 
         }
     }

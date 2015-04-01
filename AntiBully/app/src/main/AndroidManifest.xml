@@ -31,8 +31,11 @@
             </intent-filter>
         </activity>
         <activity
-
             android:name=".MainActivity"
+            android:label="@string/app_name">
+        </activity>
+        <activity
+            android:name=".Activity.RegistroActivity"
             android:label="@string/app_name">
         </activity>
     </application>
