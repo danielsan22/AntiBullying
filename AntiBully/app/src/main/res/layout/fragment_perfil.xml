@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal"
+            >
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:background="@drawable/ic_communities"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+
+                />
+        </LinearLayout>
+        
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            >
+
+
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="Nombre"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="Apellido1 Apellido 2"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+
+                />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="FECHA"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="Login"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+
+                />
+
+
+        </TableLayout>
+
+
+    </LinearLayout>
+</ScrollView>

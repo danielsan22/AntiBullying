@@ -20,14 +20,14 @@ public class HomeFragment extends Fragment implements View.OnClickListener {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
             Bundle savedInstanceState) {
 
-        View rootView = inflater.inflate(R.layout.fragment_home, container, false);
+        View rootView = inflater.inflate(R.layout.fragment_perfil, container, false);
         pref = this.getActivity().getSharedPreferences(PREFS_NAME, 0);
-        btn_reset = (Button)rootView.findViewById(R.id.btn_reset);
-        btn_reset.setOnClickListener(this);
+        //btn_reset = (Button)rootView.findViewById(R.id.btn_reset);
+        //btn_reset.setOnClickListener(this);
+
+
 
         return rootView;
-
-
     }
 
 
