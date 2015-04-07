@@ -50,12 +50,13 @@ public final class R {
         public static final int list_selector=0x7f020012;
     }
     public static final class id {
-        public static final int action_settings=0x7f0a001c;
+        public static final int action_settings=0x7f0a0022;
         public static final int btn_login=0x7f0a0005;
         public static final int btn_register=0x7f0a0016;
         public static final int btn_registro=0x7f0a0006;
         public static final int btn_reset=0x7f0a001b;
         public static final int counter=0x7f0a0019;
+        public static final int cur=0x7f0a001f;
         public static final int drawer_layout=0x7f0a0000;
         public static final int et_apellido_materno=0x7f0a000a;
         public static final int et_apellido_paterno=0x7f0a0009;
@@ -71,13 +72,18 @@ public final class R {
         public static final int et_passwordR=0x7f0a0012;
         public static final int et_user=0x7f0a0003;
         public static final int et_userR=0x7f0a0011;
+        public static final int flag=0x7f0a001d;
         public static final int frame_container=0x7f0a0001;
+        public static final int grad=0x7f0a0021;
+        public static final int grup=0x7f0a0020;
         public static final int icon=0x7f0a0017;
         public static final int list_slidermenu=0x7f0a0002;
+        public static final int lv_tutoreados=0x7f0a001c;
         public static final int rb_h=0x7f0a000f;
         public static final int rb_m=0x7f0a0010;
         public static final int tb_ban=0x7f0a0007;
         public static final int title=0x7f0a0018;
+        public static final int txt=0x7f0a001e;
         public static final int txtLabel=0x7f0a001a;
     }
     public static final class layout {
@@ -91,7 +97,9 @@ public final class R {
         public static final int fragment_pages=0x7f030007;
         public static final int fragment_perfil=0x7f030008;
         public static final int fragment_photos=0x7f030009;
-        public static final int fragment_whats_hot=0x7f03000a;
+        public static final int fragment_tutoreados=0x7f03000a;
+        public static final int fragment_tutoreados_list=0x7f03000b;
+        public static final int fragment_whats_hot=0x7f03000c;
     }
     public static final class menu {
         public static final int main=0x7f090000;

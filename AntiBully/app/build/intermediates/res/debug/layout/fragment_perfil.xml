@@ -14,8 +14,8 @@
             android:orientation="horizontal"
             >
             <ImageView
-                android:layout_width="200dp"
-                android:layout_height="200dp"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
                 android:background="@drawable/ic_communities"
                 android:layout_marginTop="20dp"
                 android:layout_marginLeft="20dp"
@@ -23,62 +23,104 @@
                 />
         </LinearLayout>
         
-        <LinearLayout
+        <TableLayout
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             android:orientation="vertical"
             >
 
 
+            <TableRow>
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text="Nombre"
+                    android:textSize="16dp"
 
-            <TextView
-                android:layout_width="fill_parent"
-                android:layout_height="fill_parent"
-                android:text="Nombre"
-                android:layout_marginTop="20dp"
-                android:layout_marginLeft="20dp"
-                />
-            <TextView
-                android:layout_width="fill_parent"
-                android:layout_height="fill_parent"
-                android:text="Apellido1 Apellido 2"
-                android:layout_marginTop="20dp"
-                android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="20dp"
+                    />
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text="Daniel"
+                    android:textSize="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="20dp"
+                    />
 
-                />
-            <TextView
-                android:layout_width="fill_parent"
-                android:layout_height="fill_parent"
-                android:text="FECHA"
-                android:layout_marginTop="20dp"
-                android:layout_marginLeft="20dp"
-                />
-            <TextView
-                android:layout_width="fill_parent"
-                android:layout_height="fill_parent"
-                android:text="Login"
-                android:layout_marginTop="20dp"
-                android:layout_marginLeft="20dp"
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text="Apellido"
+                    android:textSize="16dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="20dp"
 
-                />
+                    />
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text="Sánchez Ramírez"
+                    android:textSize="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="20dp"
+
+                    />
+
+            </TableRow>
+            <TableRow>
 
 
-        </LinearLayout>
-        <LinearLayout
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:orientation="vertical"
-            >
-            <TextView
-                android:layout_width="fill_parent"
-                android:layout_height="fill_parent"
-                android:text="Numero de tutoreados"
-                android:layout_marginTop="20dp"
-                android:layout_marginLeft="20dp"
-                />
-            
-            
-            </LinearLayout>
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:text="Login"
+                        android:textSize="16dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginLeft="20dp"
+
+                        />
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:text="daniel123"
+                        android:textSize="20dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginLeft="20dp"
+
+                        />
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:text="FECHA"
+                        android:textSize="16dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginLeft="20dp"
+                        />
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:text="24/Septiembre/2016"
+                        android:textSize="20dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginLeft="20dp"
+                        />
+
+                </TableRow>
+
+
+
+            </TableLayout>
+
+
+
+
+
 
     </LinearLayout>
 </ScrollView><!-- From: file:/Users/Daniel/Downloads/AntiBullying-master/AntiBully/app/src/main/res/layout/fragment_perfil.xml -->

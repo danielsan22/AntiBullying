@@ -31,7 +31,7 @@ public class MainActivity extends Activity {
     private SharedPreferences pref;
 	// nav drawer title
 	private CharSequence mDrawerTitle;
-
+    private int alu;
 	// used to store app title
 	private CharSequence mTitle;
 
@@ -48,7 +48,7 @@ public class MainActivity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
-
+        alu = 1;
 
 		mTitle = mDrawerTitle = getTitle();
 
@@ -180,7 +180,7 @@ public class MainActivity extends Activity {
 	 * */
 	private void displayView(int position) {
 		// update the main content by replacing fragments
-		Fragment fragment = null;//-Aquí es donde tenemos que modificar para que funcione correctamente. Bandera para validar si es alumno o tutor
+		Fragment fragment = null;
 		switch (position) {
 		case 0:
 			fragment = new HomeFragment();
@@ -192,7 +192,7 @@ public class MainActivity extends Activity {
 			fragment = new PhotosFragment();
 			break;
 		case 3:
-			fragment = new CommunityFragment();
+			fragment = new TutoreadosFragment();
 			break;
 		case 4:
 			fragment = new PagesFragment();
